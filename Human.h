@@ -29,6 +29,21 @@ class Human {
 		void incrementAge(){
 			this->age++;
 		}
+
+		int getAge() {
+			return this->age;
+		}
+
+		string getFName() {
+			return this->fname;
+		}
+
+		string getLname() {
+			return this->lname;
+		}
+
+		// i added getters
 };
+
 
 #endif //HUMAN_H

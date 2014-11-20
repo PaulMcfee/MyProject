@@ -10,6 +10,7 @@ int main() {
 	Human gabriel(20, "Stone", "Gabriel");
 
 	Human human();
-
+	
 	gabriel.incrementAge();
+	std::cout << gabriel.getAge();
 }
