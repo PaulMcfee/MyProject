@@ -13,4 +13,13 @@ int main() {
 	
 	gabriel.incrementAge();
 	std::cout << gabriel.getAge();
+	/*
+	
+		Adding comment lines
+	*/
+
+
+	Human *p;
+	p = new Human(25, "Paul", "McChicken");
+
 }
